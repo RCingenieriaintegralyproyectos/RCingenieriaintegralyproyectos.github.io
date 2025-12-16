@@ -107,5 +107,30 @@ contacto@rcingenieriaintegral.com
     color: #0b3c5d;
     margin-bottom: 8px;
 }
+/* Header con logo y texto alineados */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre logo y texto */
+    flex-wrap: wrap; /* Para que en móviles se acomode verticalmente */
+}
+
+.logo {
+    max-width: 120px; /* Tamaño del logo */
+    height: auto;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Logo arriba, texto abajo */
+        gap: 10px;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+}
 
 
