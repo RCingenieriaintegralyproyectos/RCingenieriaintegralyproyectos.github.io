@@ -46,3 +46,57 @@ footer {
     background: #0b3c5d;
     color: white;
 }
+/* Responsive */
+@media (max-width: 768px) {
+
+    header {
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .slogan {
+        font-size: 15px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+<a href="https://wa.me/593962255090" class="whatsapp" target="_blank">
+    WhatsApp
+</a>
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp:hover {
+    background-color: #1ebc5a;
+}
+<p>
+Email:
+<a href="mailto:contacto@rcingenieriaintegral.com">
+contacto@rcingenieriaintegral.com
+</a>
+</p>
+
