@@ -1,3 +1,4 @@
+/* ESTILOS GENERALES */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,132 +6,11 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #0b3c5d;
-    color: white;
-    padding: 40px;
-    text-align: center;
+html {
+    scroll-behavior: smooth;
 }
 
-.slogan {
-    font-size: 18px;
-    margin-top: 10px;
-    font-style: italic;
-}
-
-section {
-    background: white;
-    margin: 30px auto;
-    padding: 30px;
-    max-width: 900px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-}
-
-h2 {
-    color: #0b3c5d;
-    margin-bottom: 15px;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #0b3c5d;
-    color: white;
-}
-/* Responsive */
-@media (max-width: 768px) {
-
-    header {
-    padding: 60px 20px;
-}
-
-
-    header h1 {
-        font-size: 24px;
-    }
-header h1 {
-    margin-bottom: 10px;
-    font-size: 2.2em;
-    color: #0b3c5d;
-}
-
-    .slogan {
-        font-size: 15px;
-    }
-
-    section {
-        margin: 15px;
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    body {
-        font-size: 16px;
-    }
-}
-<a href="https://wa.me/593962255090" class="whatsapp" target="_blank">
-    WhatsApp
-</a>
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366;
-    color: white;
-    padding: 12px 18px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-.whatsapp:hover {
-    background-color: #1ebc5a;
-}
-<p>
-Email:
-<a href="mailto:contacto@rcingenieriaintegral.com">
-contacto@rcingenieriaintegral.com
-</a>
-</p>
-.proyecto {
-    margin-bottom: 25px;
-}
-
-.proyecto h3 {
-    color: #0b3c5d;
-    margin-bottom: 8px;
-}
-.logo {
-    display: block;
-    max-width: 320px;   /* tamaño grande */
-    width: 90%;
-    height: auto;
-    margin: 0 auto 25px auto; /* centrado */
-}
-.proyecto img {
-    width: 100%;
-    height: auto;
-    max-height: 420px;
-    object-fit: contain;
-    background-color: #f4f6f8;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-}
+/* NAV */
 nav {
     background-color: #ffffff;
     padding: 15px;
@@ -151,43 +31,109 @@ nav a {
 nav a:hover {
     color: #0077cc;
 }
-html {
-    scroll-behavior: smooth;
-}
-section h2 {
-    border-bottom: 2px solid #0b3c5d;
-    padding-bottom: 8px;
-}
+
+/* HEADER */
 header {
+    background-color: #0b3c5d;
+    color: white;
     text-align: center;
     padding: 70px 20px;
 }
 
 header img.logo {
-    width: 400px !important;
+    width: 400px;
     max-width: 95%;
-    height: auto !important;
+    height: auto;
     display: block;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 25px auto;
 }
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.2em;
+    color: white;
+}
+
 header .slogan {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.1em;
-    color: #555;
+    font-style: italic;
+    color: #e0e0e0;
 }
-header {
+
+/* SECCIONES */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    color: #0b3c5d;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0b3c5d;
+    padding-bottom: 8px;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* PROYECTOS */
+.proyecto {
+    margin-bottom: 25px;
+}
+
+.proyecto h3 {
+    color: #0b3c5d;
+    margin-bottom: 8px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
     text-align: center;
-    padding: 70px 20px;
+    padding: 20px;
+    background: #0b3c5d;
+    color: white;
 }
 
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
 
+.whatsapp:hover {
+    background-color: #1ebc5a;
+}
 
-
-
-
-
-
-
-
-
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header h1 {
