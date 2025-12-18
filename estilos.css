@@ -137,3 +137,19 @@ footer {
 /* RESPONSIVE */
 @media (max-width: 768px) {
     header h1 {
+.redes {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.redes a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
