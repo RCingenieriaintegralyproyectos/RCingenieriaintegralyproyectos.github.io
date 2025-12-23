@@ -9,6 +9,24 @@
 <a href="https://wa.me/593962255090" class="whatsapp-float" target="_blank">
     WhatsApp
 </a>
+<script>
+    const sections = document.querySelectorAll("section");
+
+    const revealSections = () => {
+        const triggerBottom = window.innerHeight * 0.85;
+
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+
+            if (sectionTop < triggerBottom) {
+                section.classList.add("visible");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", revealSections);
+    revealSections();
+</script>
 
 <body>
 
@@ -242,6 +260,7 @@
 
 </body>
 </html>
+
 
 
 
